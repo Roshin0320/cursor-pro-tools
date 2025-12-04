@@ -1,5 +1,5 @@
 <div align="center">
-<h1>🚀 Cursor 账号管理器 - 专业的 Cursor IDE 管理工具</h1>
+<h1>🚀 Cursor Pro Tools - 专业的 Cursor IDE 管理工具</h1>
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
@@ -71,13 +71,13 @@
 
 #### Windows 用户
 
-1. 下载 `Cursor账号管理器 Setup x.x.x.exe` (安装版) 或 `Cursor账号管理器 x.x.x.exe` (便携版)
+1. 下载 `CursorProTools Setup x.x.x.exe` (安装版) 或 `CursorProTools x.x.x.exe` (便携版)
 2. 双击运行安装程序
 3. 如遇到 SmartScreen 警告，点击 "更多信息" → "仍要运行"
 
 #### macOS 用户
 
-1. 下载 `Cursor账号管理器-x.x.x.dmg` 或 `.zip` 文件
+1. 下载 `CursorProTools-x.x.x.dmg` 或 `.zip` 文件
 2. 打开 DMG 文件，将应用拖入 Applications 文件夹
 3. 如提示 "文件已损坏"，请参考 [常见问题](#q-macos-打开应用提示文件已损坏或无法打开)
 
@@ -222,10 +222,10 @@ sqlite3 "%APPDATA%\Cursor\User\globalStorage\state.vscdb" \
 
 ```bash
 # 移除隔离属性
-xattr -cr /Applications/Cursor账号管理器.app
+xattr -cr /Applications/CursorProTools.app
 
 # 如果上面命令无效，使用 sudo
-sudo xattr -rd com.apple.quarantine /Applications/Cursor账号管理器.app
+sudo xattr -rd com.apple.quarantine /Applications/CursorProTools.app
 ```
 
 **方法二：右键打开**
