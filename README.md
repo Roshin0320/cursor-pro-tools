@@ -83,13 +83,41 @@
 
 ---
 
+## 🖼️ 界面预览
+
+<div align="center">
+
+### 主界面
+
+<img src="./assets/images/home.png" width="700" alt="主界面">
+
+### 账号列表 & 添加账号
+
+|                            账号列表                             |                                添加账号                                |
+| :-------------------------------------------------------------: | :--------------------------------------------------------------------: |
+| <img src="./assets/images/list.png" width="350" alt="账号列表"> | <img src="./assets/images/add-account.png" width="350" alt="添加账号"> |
+
+### 工具 & 备份
+
+|                             工具界面                             |                             备份功能                              |
+| :--------------------------------------------------------------: | :---------------------------------------------------------------: |
+| <img src="./assets/images/tools.png" width="350" alt="工具界面"> | <img src="./assets/images/backup.png" width="350" alt="备份功能"> |
+
+### 设置
+
+<img src="./assets/images/setting.png" width="700" alt="设置界面">
+
+</div>
+
+---
+
 ## 📖 使用指南
 
 ### 1️⃣ 添加账号
 
 点击 "添加账号" 按钮，填写以下信息：
 
-- \*\* session
+- **Session Token**: 从 Cursor 网页中获取的 Token
 - **邮箱地址**: Cursor 账号的邮箱
 - **Access Token**: 从 Cursor 配置中获取的 Token
 
