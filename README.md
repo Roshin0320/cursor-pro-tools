@@ -1,10 +1,13 @@
 <div align="center">
-<h1>🚀 Cursor Pro Tools - 专业的 Cursor IDE 管理工具</h1>
+<h1>🚀 CursorProTools - 专业的 Cursor IDE 增强工具</h1>
 
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+<p>
+  <img src="https://img.shields.io/badge/版本-v0.2.0-blue?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/平台-Windows%20%7C%20macOS-green?style=flat-square" alt="Platform">
+  <img src="https://img.shields.io/badge/许可-MIT-orange?style=flat-square" alt="License">
+</p>
 
-**一键管理您的 Cursor IDE 账户、Token 注入、机器码重置**
+**让 AI 编程更自由 — 一键管理账户、无感换号、Token 注入、机器码重置**
 
 [📥 立即下载](#-下载安装) · [📖 使用指南](#-使用指南) · [❓ 常见问题](#-常见问题) · [💬 加入群聊](#-交流群组)
 
@@ -12,40 +15,76 @@
 
 ---
 
-## ✨ 核心功能
+## 🎯 为什么选择 CursorProTools？
 
-### 🔄 账号管理
+> **痛点：** Cursor Pro 账号额度有限，频繁达到限制、手动切换账号繁琐、被封禁后束手无策？
+>
+> **解决方案：** CursorProTools 一站式解决所有问题！
 
-| 功能                | 说明                                     |
-| ------------------- | ---------------------------------------- |
-| ✅ **快速切换账号** | 一键切换多个 Cursor Pro 账号，秒级完成   |
-| ✅ **Token 注入**   | 直接修改 Cursor 认证数据库，无需复制文件 |
-| ✅ **快速导入**     | 一键从当前 Cursor 导入已登录账号         |
-| ✅ **会话完整保留** | 切换账号时聊天历史、工作区状态不丢失     |
+| 😫 传统方式          | ✨ 使用本工具             |
+| -------------------- | ------------------------- |
+| 手动复制粘贴 Token   | ⚡ 一键注入，秒级切换     |
+| 达到限制需手动换号   | 🔄 **无感换号**，自动切换 |
+| 切换账号丢失聊天记录 | 💾 完整保留所有会话       |
+| 封禁后需重装系统     | 🔥 深度重置，焕然一新     |
 
-### 🔑 机器码管理
+---
 
-| 功能              | 说明                           |
-| ----------------- | ------------------------------ |
-| ✅ **机器码重置** | 重置设备标识，避免封禁风险     |
-| ✅ **深度重置**   | 系统级彻底重置，恢复到全新状态 |
-| ✅ **自动备份**   | 所有高风险操作都有自动备份机制 |
+## ⚡ 核心亮点
 
-### 💾 备份恢复
+<table>
+<tr>
+<td width="50%">
 
-| 功能            | 说明                                     |
-| --------------- | ---------------------------------------- |
-| ✅ **会话备份** | 备份和恢复 Cursor 会话、工作区、历史记录 |
-| ✅ **设置备份** | 备份和恢复编辑器设置、快捷键、代码片段   |
-| ✅ **一键恢复** | 出问题时可随时恢复备份                   |
+### 🔄 无感换号
 
-### 🎨 其他特性
+限流时自动切换账号，无需重启 Cursor
 
-| 功能              | 说明                              |
-| ----------------- | --------------------------------- |
-| ✅ **跨平台支持** | 完美支持 Windows 10/11 和 macOS   |
-| ✅ **现代化界面** | 美观易用的图形界面，深色/浅色主题 |
-| ✅ **本地存储**   | 所有数据本地存储，不上传任何信息  |
+- ✅ 检测到 `ERROR_RATE_LIMITED` 自动触发
+- ✅ 智能选择有额度的账号
+- ✅ 工具关闭后仍持续工作
+- ✅ VSCode 风格优雅通知
+
+</td>
+<td width="50%">
+
+### ⚡ 秒级账号切换
+
+一键切换多个 Cursor Pro 账号
+
+- ✅ 直接修改认证数据库
+- ✅ **会话历史完整保留**
+- ✅ 工作区状态不丢失
+- ✅ MCP 配置继续生效
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🛡️ 多层次机器码重置
+
+从轻量到深度，解决各种封禁问题
+
+- 🔸 **普通重置** - 仅重置机器码
+- 🔸 **出厂重置** - 清除所有数据
+- 🔥 **深度重置** - 修改系统 UUID + 程序签名
+
+</td>
+<td width="50%">
+
+### 💾 数据安全保障
+
+本地存储，隐私无忧
+
+- ✅ 所有数据本地加密存储
+- ✅ 零数据上传
+- ✅ 操作前自动备份
+- ✅ 一键恢复备份
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -93,9 +132,17 @@
 
 ### 账号列表 & 添加账号
 
-|                            账号列表                             |                                添加账号                                |
-| :-------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| <img src="./assets/images/list.png" width="350" alt="账号列表"> | <img src="./assets/images/add-account.png" width="350" alt="添加账号"> |
+|                             账号列表                              |                             添加账号                              |
+| :---------------------------------------------------------------: | :---------------------------------------------------------------: |
+|  <img src="./assets/images/list.png" width="350" alt="账号列表">  | <img src="./assets/images/list-1.png" width="350" alt="添加账号"> |
+| <img src="./assets/images/list-2.png" width="350" alt="账号列表"> | <img src="./assets/images/list-3.png" width="350" alt="添加账号"> |
+
+### 无感换号
+
+|                                  无感换号                                  |                                  无感换号                                  |
+| :------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+|  <img src="./assets/images/unconsciously.png" width="350" alt="无感换号">  | <img src="./assets/images/unconsciously-2.png" width="350" alt="无感换号"> |
+| <img src="./assets/images/unconsciously-3.png" width="350" alt="无感换号"> | <img src="./assets/images/unconsciously-4.png" width="350" alt="无感换号"> |
 
 ### 工具 & 备份
 
@@ -113,13 +160,45 @@
 
 ## 📖 使用指南
 
-### 1️⃣ 添加账号
+### 1️⃣ 无感换号 — 告别手动切换
 
-点击 "添加账号" 按钮，填写以下信息：
+<details>
+<summary><b>🔍 工作原理（点击展开）</b></summary>
 
-- **Session Token**: 从 Cursor 网页中获取的 Token
-- **邮箱地址**: Cursor 账号的邮箱
-- **Access Token**: 从 Cursor 配置中获取的 Token
+```
+用户发送请求
+     ↓
+Cursor 检测到限流 (ERROR_RATE_LIMITED_CHANGEABLE)
+     ↓
+注入代码自动拦截
+     ↓
+调用本地服务获取新账号
+     ↓
+自动替换 Token
+     ↓
+显示优雅通知："✓ 已无感换号，请重新提问"
+```
+
+</details>
+
+**使用步骤：**
+
+1. 在「无感换号」页面点击 **执行注入**
+2. 重启 Cursor
+3. 开启 **启用无感换号** 开关
+4. 开启 **限流自动切换**（可选）
+5. 搞定！Cursor 达到限制时会自动切换账号
+
+---
+
+### 2️⃣ 账号管理 — 高效切换
+
+| 功能              | 说明                             |
+| ----------------- | -------------------------------- |
+| 🔑 **Token 注入** | 直接修改数据库，无需复制文件     |
+| 📥 **一键导入**   | 从当前 Cursor 导入已登录账号     |
+| 🔄 **快速切换**   | 选择账号 → 点击切换 → 完成       |
+| 💾 **会话保留**   | 聊天记录、设置、MCP 配置全部保留 |
 
 #### 🔑 如何获取 Token？
 
@@ -151,34 +230,20 @@ sqlite3 "%APPDATA%\Cursor\User\globalStorage\state.vscdb" \
 
 </details>
 
-### 2️⃣ 切换账号
+---
 
-1. 在账号列表中选择要切换的账号
-2. 点击 **"切换"** 按钮
-3. 工具会自动关闭 Cursor 并注入新的 Token
-4. 根据设置自动重启 Cursor 或手动启动
+### 3️⃣ 机器码重置 — 解除封禁
 
-> 💡 **提示**：切换账号时，您的所有聊天历史、工作区状态、用户设置都会完整保留！
+| 重置级别     | 适用场景     | 风险等级 |
+| ------------ | ------------ | -------- |
+| **普通重置** | 日常切换账号 | 🟢 低    |
+| **出厂重置** | 轻度封禁     | 🟡 中    |
+| **深度重置** | 严重封禁     | 🔴 高    |
 
-### 3️⃣ 重置机器码
-
-当频繁切换账号导致被限制时：
-
-1. 点击 **"重置机器码"** 按钮
-2. 工具会生成新的设备标识
-3. Cursor 会被识别为新设备
-
-> ⚠️ **注意**：重置机器码会清除当前登录状态，需要重新登录
-
-### 4️⃣ 深度重置
-
-执行更彻底的系统级重置：
-
-1. 点击 **"🔥🔥 深度重置 🔥🔥"** 按钮
-2. 根据系统执行以下操作：
+**深度重置包含：**
 
 <details>
-<summary><b>Mac 系统</b></summary>
+<summary><b>macOS 系统</b></summary>
 
 - 修改系统 UUID
 - 清除 DNS 缓存
@@ -188,16 +253,15 @@ sqlite3 "%APPDATA%\Cursor\User\globalStorage\state.vscdb" \
 </details>
 
 <details>
-<summary><b>Windows 系统（8 个步骤）</b></summary>
+<summary><b>Windows 系统（需管理员权限）</b></summary>
 
-- 修改注册表 MachineGuid（需要管理员权限）
-- 修改系统标识符（ProductId、InstallDate）
-- 清除 DNS 缓存
-- 清除网络缓存（ARP、NetBIOS）
+- 修改注册表 MachineGuid
+- 修改系统标识符
+- 清除 DNS/ARP/NetBIOS 缓存
 - 处理 MAC 地址信息
 - 清除 Windows 事件日志
-- 清除 Windows 缓存和临时文件
-- 修改 Cursor 程序文件（增强版，8 种匹配模式）
+- 清除缓存和临时文件
+- 修改 Cursor 程序文件（8 种匹配模式）
 
 </details>
 
@@ -206,6 +270,15 @@ sqlite3 "%APPDATA%\Cursor\User\globalStorage\state.vscdb" \
 > - Windows 需要以 **管理员身份** 运行才能完整执行深度重置
 > - Mac 上首次启动修改后的 Cursor 可能需要在 "系统偏好设置 → 安全性" 中允许
 > - 建议深度重置后重启计算机
+
+---
+
+### 4️⃣ 备份恢复 — 数据无忧
+
+| 备份类型     | 包含内容                       |
+| ------------ | ------------------------------ |
+| **会话备份** | 聊天历史、工作区状态、项目配置 |
+| **设置备份** | 编辑器设置、快捷键、代码片段   |
 
 ---
 
@@ -276,10 +349,9 @@ sudo xattr -rd com.apple.quarantine /Applications/CursorProTools.app
 <details>
 <summary><b>🔧 解决方案</b></summary>
 
-1. 检查是否完全清除了缓存
-2. 尝试执行 **"深度重置"**
-3. 尝试重新安装 Cursor
-4. 等待一段时间后再尝试
+1. 尝试执行 **"深度重置"**
+2. 重启计算机
+3. 等待一段时间后再尝试
 
 </details>
 
@@ -301,11 +373,6 @@ sudo xattr -rd com.apple.quarantine /Applications/CursorProTools.app
 
 - `C:\Users\你的用户名\AppData\Local\Programs\Cursor\Cursor.exe`
 
-**常见默认路径：**
-
-- 用户安装：`%LOCALAPPDATA%\Programs\Cursor`
-- 系统安装：`%PROGRAMFILES%\Cursor` 或 `%PROGRAMFILES(X86)%\Cursor`
-
 </details>
 
 ---
@@ -315,17 +382,10 @@ sudo xattr -rd com.apple.quarantine /Applications/CursorProTools.app
 <details>
 <summary><b>📂 数据存储位置</b></summary>
 
-**Mac：**
-
-- 应用数据：`~/Library/Application Support/cursor-account-manager/`
-- 数据库：`~/Library/Application Support/cursor-account-manager/accounts.db`
-- Cursor 配置：`~/Library/Application Support/Cursor/`
-
-**Windows：**
-
-- 应用数据：`%APPDATA%\cursor-account-manager\`
-- 数据库：`%APPDATA%\cursor-account-manager\accounts.db`
-- Cursor 配置：`%APPDATA%\Cursor\`
+| 平台        | 路径                                              |
+| ----------- | ------------------------------------------------- |
+| **macOS**   | `~/Library/Application Support/cursor-pro-tools/` |
+| **Windows** | `%APPDATA%\cursor-pro-tools\`                     |
 
 </details>
 
@@ -333,13 +393,12 @@ sudo xattr -rd com.apple.quarantine /Applications/CursorProTools.app
 
 ## 🔒 安全说明
 
-| 安全特性          | 说明                                   |
-| ----------------- | -------------------------------------- |
-| ✅ **本地存储**   | 所有账号数据存储在本地 SQLite 数据库中 |
-| ✅ **无网络上传** | 不会上传任何数据到远程服务器           |
-| ✅ **自动备份**   | 所有高风险操作都有自动备份机制         |
-| ✅ **错误恢复**   | 提供恢复功能，可以随时恢复备份         |
-| ✅ **数据隔离**   | Token 数据仅用于本地切换账号           |
+| 特性            | 说明                          |
+| --------------- | ----------------------------- |
+| ✅ **本地存储** | SQLite 数据库，数据不离开本机 |
+| ✅ **零上传**   | 不会上传任何数据到远程服务器  |
+| ✅ **自动备份** | 高风险操作前自动创建备份      |
+| ✅ **可恢复**   | 所有修改都可一键恢复          |
 
 ---
 
@@ -355,17 +414,17 @@ sudo xattr -rd com.apple.quarantine /Applications/CursorProTools.app
 
 </div>
 
-**加群须知：**
+**群内福利：**
 
-- 📢 群内会第一时间发布新版本
-- 💡 遇到问题可以在群里交流
-- 🚫 禁止发布违规内容
+- 📢 第一时间获取新版本
+- 💡 技术问题快速解答
+- 🎁 不定期分享账号资源
 
 ---
 
 ## ☕ 赞助支持
 
-如果这个项目对你有帮助，欢迎赞助支持！
+如果这个项目对你有帮助，欢迎赞助支持持续开发！
 
 <div align="center">
 
@@ -375,24 +434,39 @@ sudo xattr -rd com.apple.quarantine /Applications/CursorProTools.app
 
 </div>
 
+---
+
+## 📋 更新日志
+
+### v0.2.0 (最新)
+
+- 🆕 **无感换号功能** — 限流自动切换账号
+- 🆕 本地服务支持，工具关闭后仍可使用
+- 🆕 账号额度检测
+- ✨ 优化界面交互
+
+---
+
 ## ⚖️ 免责声明
 
 > ⚠️ **重要声明**
-
-本工具 **仅供学习和研究使用**，使用本工具所产生的任何后果由使用者自行承担。
-
-- 请遵守 Cursor 的服务条款
-- 频繁切换账号可能违反服务协议，请谨慎使用
-- 本工具不会收集或上传任何用户数据
-
-This tool is only for learning and research purposes, and any consequences arising from the use of this tool are borne by the user.
+>
+> 本工具 **仅供学习和研究使用**，使用本工具所产生的任何后果由使用者自行承担。
+>
+> - 请遵守 Cursor 的服务条款
+> - 频繁切换账号可能违反服务协议
+> - 本工具不收集或上传任何用户数据
 
 ---
 
 <div align="center">
 
-**🚀 让 Cursor 智能编程更优雅！**
+**⭐ 如果觉得好用，请给个 Star 支持一下！**
 
-Made with ❤️ by Roshin
+<br>
+
+Made with ❤️ by **Roshin**
+
+<sub>让 AI 编程更自由 🚀</sub>
 
 </div>
